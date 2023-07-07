@@ -1,0 +1,14 @@
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\bin\Debug\net7.0\Example.Infrastructure.deps.json
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\bin\Debug\net7.0\Example.Infrastructure.runtimeconfig.json
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\bin\Debug\net7.0\Example.Infrastructure.dll
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\bin\Debug\net7.0\Example.Infrastructure.pdb
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.csproj.AssemblyReference.cache
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.AssemblyInfoInputs.cache
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.AssemblyInfo.cs
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.dll
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\refint\Example.Infrastructure.dll
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.pdb
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\Example.Infrastructure.genruntimeconfig.cache
+D:\ExamenFinal\ApliWeb\PCExample\Example.Infrastructure\obj\Debug\net7.0\ref\Example.Infrastructure.dll

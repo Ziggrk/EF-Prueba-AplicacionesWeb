@@ -1,0 +1,15 @@
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\bin\Debug\net7.0\Example.Domain.deps.json
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\bin\Debug\net7.0\Example.Domain.dll
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\bin\Debug\net7.0\Example.Domain.pdb
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\bin\Debug\net7.0\Example.Infrastructure.dll
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\bin\Debug\net7.0\Example.Infrastructure.pdb
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.csproj.AssemblyReference.cache
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.AssemblyInfoInputs.cache
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.AssemblyInfo.cs
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.csproj.CoreCompileInputs.cache
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.csproj.CopyComplete
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.dll
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\refint\Example.Domain.dll
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\Example.Domain.pdb
+D:\ExamenFinal\ApliWeb\PCExample\Example.Domain\obj\Debug\net7.0\ref\Example.Domain.dll
