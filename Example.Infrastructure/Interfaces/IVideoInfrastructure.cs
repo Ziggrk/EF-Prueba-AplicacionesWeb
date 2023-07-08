@@ -5,5 +5,5 @@ namespace Example.Infrastructure.Interfaces;
 public interface IVideoInfrastructure
 {
     Task<List<Video>> GetAllAsync();
-    public Task<bool> SaveAsync(Video video);
+    Task<bool> SaveAsync(Video video);
 }

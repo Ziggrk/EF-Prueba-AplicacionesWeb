@@ -10,6 +10,8 @@ public class RequestToModel : Profile
     {
         CreateMap<TagRequest, Tag>();
         CreateMap<VideoRequest, Video>();
+        CreateMap<LeafRequest, Leaf>();
+        CreateMap<TreeResquest, Tree>();
     }
 
 }

@@ -16,7 +16,9 @@ public class ExampleDbContext : DbContext
         
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Video> Videos { get; set; }
-
+        public DbSet<Tree> Trees { get; set; }
+        public DbSet<Leaf> Leafs { get; set; }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -39,5 +41,22 @@ public class ExampleDbContext : DbContext
             modelBuilder.Entity<Tag>().HasKey(tag => tag.Id);
             modelBuilder.Entity<Tag>().Property(tag => tag.Id).IsRequired().ValueGeneratedOnAdd();
             modelBuilder.Entity<Tag>().Property(tag => tag.Name).IsRequired();
+
+            modelBuilder.Entity<Tree>().ToTable("trees");
+            modelBuilder.Entity<Tree>().HasKey(trees => trees.Id);
+            modelBuilder.Entity<Tree>().Property(trees => trees.Id).IsRequired().ValueGeneratedOnAdd();
+            modelBuilder.Entity<Tree>().Property(trees => trees.Username).IsRequired();
+            modelBuilder.Entity<Tree>().Property(trees => trees.Email).IsRequired();
+            modelBuilder.Entity<Tree>().Property(trees => trees.Gender).IsRequired();
+            modelBuilder.Entity<Tree>().Property(trees => trees.FirstName).IsRequired();
+            modelBuilder.Entity<Tree>().Property(trees => trees.LastName).IsRequired();
+            modelBuilder.Entity<Tree>().Property(trees => trees.BornAt).IsRequired();
+            
+            modelBuilder.Entity<Leaf>().ToTable("leafs");
+            modelBuilder.Entity<Leaf>().HasKey(leafs => leafs.Id);
+            modelBuilder.Entity<Leaf>().Property(leafs => leafs.Id).IsRequired().ValueGeneratedOnAdd();
+            modelBuilder.Entity<Leaf>().Property(leafs => leafs.Scenario).IsRequired();
+            modelBuilder.Entity<Leaf>().Property(leafs => leafs.Title).IsRequired();
+            modelBuilder.Entity<Leaf>().Property(leafs => leafs.Tip).IsRequired();
         }
 }

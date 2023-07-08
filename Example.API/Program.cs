@@ -19,6 +19,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IVideoInfrastructure, VideoSQLInfrastructure>();
 builder.Services.AddScoped<IVideoDomain, VideoDomain>();
 builder.Services.AddScoped<ITagInfrastructure, TagSQLInfrastructure>();
+builder.Services.AddScoped<ITreeInfrastructure, TreeSQLInfrastructure>();
+builder.Services.AddScoped<ITreeDomain, TreeDomain>();
+builder.Services.AddScoped<ILeafInfrastructure, LeafSQLInfrastructure>();
+builder.Services.AddScoped<ILeafDomain, LeafDomain>();
 
 builder.Services.AddAutoMapper(
     typeof(ModelToResponse),

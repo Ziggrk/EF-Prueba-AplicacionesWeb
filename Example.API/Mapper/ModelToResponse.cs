@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Example.API.Request;
 using Example.API.Response;
 using Example.Infrastructure.Models;
 
@@ -10,5 +11,7 @@ public class ModelToResponse : Profile
     {
         CreateMap<Tag, TagResponse>();
         CreateMap<Video, VideoResponse>();
+        CreateMap<Tree, TreeResponse>();
+        CreateMap<Leaf, LeafResponse>();
     }
 }
