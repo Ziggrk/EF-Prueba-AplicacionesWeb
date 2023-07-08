@@ -13,5 +13,7 @@ public class ModelToResponse : Profile
         CreateMap<Video, VideoResponse>();
         CreateMap<Tree, TreeResponse>();
         CreateMap<Leaf, LeafResponse>();
+        CreateMap<Farmer, FarmerResponse>();
+        CreateMap<Farmland, FarmlandResponse>();
     }
 }

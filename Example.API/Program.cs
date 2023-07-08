@@ -23,6 +23,9 @@ builder.Services.AddScoped<ITreeInfrastructure, TreeSQLInfrastructure>();
 builder.Services.AddScoped<ITreeDomain, TreeDomain>();
 builder.Services.AddScoped<ILeafInfrastructure, LeafSQLInfrastructure>();
 builder.Services.AddScoped<ILeafDomain, LeafDomain>();
+builder.Services.AddScoped<IFarmerInfrastructure, FarmerSQLInfrastructure>();
+builder.Services.AddScoped<IFarmlandInfrastructure, FarmlandSQLInfrastructure>();
+builder.Services.AddScoped<IFarmerDomain, FarmerDomain>();
 
 builder.Services.AddAutoMapper(
     typeof(ModelToResponse),

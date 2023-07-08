@@ -18,7 +18,9 @@ public class ExampleDbContext : DbContext
         public DbSet<Video> Videos { get; set; }
         public DbSet<Tree> Trees { get; set; }
         public DbSet<Leaf> Leafs { get; set; }
-        
+        public DbSet<Farmer> Farmers { get; set; }
+        public DbSet<Farmland> Farmlands { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -58,5 +60,22 @@ public class ExampleDbContext : DbContext
             modelBuilder.Entity<Leaf>().Property(leafs => leafs.Scenario).IsRequired();
             modelBuilder.Entity<Leaf>().Property(leafs => leafs.Title).IsRequired();
             modelBuilder.Entity<Leaf>().Property(leafs => leafs.Tip).IsRequired();
+            
+            modelBuilder.Entity<Farmer>().ToTable("farmers");
+            modelBuilder.Entity<Farmer>().HasKey(farmers => farmers.Id);
+            modelBuilder.Entity<Farmer>().Property(farmers => farmers.Id).IsRequired().ValueGeneratedOnAdd();
+            modelBuilder.Entity<Farmer>().Property(farmers => farmers.Username).IsRequired();
+            modelBuilder.Entity<Farmer>().Property(farmers => farmers.Email).IsRequired();
+            modelBuilder.Entity<Farmer>().Property(farmers => farmers.LastName).IsRequired();
+            modelBuilder.Entity<Farmer>().Property(farmers => farmers.FirstName).IsRequired();
+            
+            modelBuilder.Entity<Farmland>().ToTable("farmlands");
+            modelBuilder.Entity<Farmland>().HasKey(farmlands => farmlands.Id);
+            modelBuilder.Entity<Farmland>().Property(farmlands => farmlands.Id).IsRequired().ValueGeneratedOnAdd();
+            modelBuilder.Entity<Farmland>().Property(farmlands => farmlands.Altitude).IsRequired();
+            modelBuilder.Entity<Farmland>().Property(farmlands => farmlands.Latitude).IsRequired();
+            modelBuilder.Entity<Farmland>().Property(farmlands => farmlands.Longitude).IsRequired();
+            modelBuilder.Entity<Farmland>().Property(farmlands => farmlands.Length).IsRequired();
+            modelBuilder.Entity<Farmland>().Property(farmlands => farmlands.Width).IsRequired();
         }
 }
